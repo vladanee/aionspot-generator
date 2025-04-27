@@ -14,6 +14,8 @@ def utilize(request):
 
 
 # Pages
+def features(request):
+    return render(request, "features", { 'title': 'Features', 'mainTitle':'Features'})
 
 def styleGuide(request):
     return render(request, "pages/styleGuide.html", { 'title': 'Style Guide', 'mainTitle':'Style Guide'})

@@ -23,14 +23,13 @@ from AIwave import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    
-    # Main Pages
+        # Main Pages
     path('', views.index, name='home'),
     path('index.html', views.index, name='index'),
     path('roadmap/', views.roadmap, name='roadmap'),
     path('utilize/', views.utilize, name='utilize'),
     path('privacy-policy/', views.privacyPolicy, name='privacy-policy'),
-
+    path('features.html/', views.features, name='features'),
     # Pages (inside /pages/)
     path('pages/style-guide/', views.styleGuide, name='style-guide'),
     path('pages/blog/', views.blog, name='blog'),
