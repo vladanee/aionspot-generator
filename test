@@ -1,0 +1,7 @@
+cd /home/aionspot/web/aionspot.com/public_html
+source venv/bin/activate
+git pull origin main
+pip install -r requirements.txt
+python manage.py collectstatic --noinput
+supervisorctl restart aionspot
+sudo systemctl reload nginx
