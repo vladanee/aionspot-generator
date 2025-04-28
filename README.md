@@ -1,8 +1,8 @@
 **README.md**
 
-# AIwave - AI SaaS Website
+# AIonspot - AI SaaS Website
 
-> Full-stack Django web application based on the AIwave UI Kit.  
+> Full-stack Django web application based on the AIonspot UI Kit.  
 > **Deployed with Nginx, Gunicorn, Supervisor, and SSL (Let's Encrypt pending).**
 
 ---
@@ -93,5 +93,4 @@
 
 ---
 
-## License
-This project uses purchased AIwave UI Kit assets — commercial use is based on your license.
+
