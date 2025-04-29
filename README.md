@@ -64,7 +64,11 @@
 
 6. Production ready with Gunicorn and Nginx.
 
----
+cd /home/aionspot/web/aionspot.com/public_html
+source venv/bin/activate
+git pull --no-rebase origin Main
+sudo supervisorctl restart aionspot
+sudo systemctl reload nginx
 
 ## Environment Variables
 
